@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh; /* Make the container fill the entire viewport height */
+  }
+  
+  .section {
+    flex: 1; /* Each section takes an equal share of the available space */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .home {
+    background-color: #f0f0f0;
+  }
+  
+  .contact {
+    background-color: #e0e0e0;
+  }
+  
+  .about {
+    background-color: #d0d0d0;
+  }
+
+  .portfolio {
+    background-color: #f0f0f0;
+  }
+
+  .blog {
+    background-color: #e0e0e0;
+  }
+
+  .team {
+    background-color: #d0d0d0;
+  }
+  

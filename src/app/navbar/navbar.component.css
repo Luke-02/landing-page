@@ -1,0 +1,36 @@
+/* navbar.component.css */
+
+/* Apply a black background color */
+nav {
+    background-color: #000;
+    height: 60px;
+    font-style: normal;
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-top: 10px;
+  }
+  
+  /* Style the ul to appear horizontally */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the list items horizontal */
+  }
+  
+  /* Style the list items (li) */
+  li {
+    margin-right: 20px; /* Add some spacing between items */
+  }
+  
+  /* Style the links (a) */
+  a {
+    text-decoration: none;
+    color: deepskyblue; /* Text color */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  /* Style links on hover */
+  a:hover {
+    color: yellowgreen; /* Change color on hover */
+  }
+  

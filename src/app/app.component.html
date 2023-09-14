@@ -1,8 +1,28 @@
-<nav>
-  <ul>
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="/about">About</a></li>
-    <li><a routerLink="/contact">Contact</a></li>
-  </ul>
-</nav>
-<router-outlet></router-outlet>
+<app-navbar></app-navbar>
+
+<div class="container">
+  <div class="section home">
+    <!-- Add content from HomeComponent here -->
+    <app-home></app-home>
+  </div>
+  <div class="section contact">
+    <!-- Add content from ContactComponent here -->
+    <app-contact></app-contact>
+  </div>
+  <div class="section about">
+    <!-- Add content from AboutComponent here -->
+    <app-about></app-about>
+  </div>
+  <div class="section portfolio">
+    <!-- Add content from PortfolioComponent here -->
+    <app-portfolio></app-portfolio>
+  </div>
+  <div class="section blog">
+    <!-- Add content from BlogComponent here -->
+    <app-blog></app-blog>
+  </div>
+  <div class="section team">
+    <!-- Add content from TeamComponent here -->
+    <app-team></app-team>
+  </div>
+</div>
